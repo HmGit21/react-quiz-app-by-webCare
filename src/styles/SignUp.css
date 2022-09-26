@@ -1,0 +1,76 @@
+.subMain{
+    padding: 1.5rem 0;
+}
+.login_banner{
+    width: 50%;
+}
+.login_banner img{
+    height: 80%;
+}
+.logImg img{
+    height: 60%;
+}
+.login_banner h1{
+    padding-bottom: 3.5rem;
+}
+.login_formBox{
+    width: 50%;
+    position: relative;
+}
+.login_cnt{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login_Subcnt {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -100px;
+}
+.login_cnt p a{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+}
+.form_item{margin-top: 10px;}
+.form_item input, .form_item button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 5px;
+    border-radius: 5px;
+    outline-style: none;
+    border: 1px solid lightgray;
+}
+.form_item button{
+    margin-top: 30px;
+    background: var(--successGreen);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form_item button:hover{
+    background: var(--fontPrimary);
+    color: #fff;
+}
+.form_item a{display: inline-block; width: 100%;}
+.login_formBox p{
+    text-align: center;
+    padding-top: 20px;
+}
+.label{
+    display: block;
+    padding-top: 20px;
+}
+.checkbox{
+    margin-right: 10px;
+}

@@ -1,0 +1,16 @@
+.video_box{
+    width: 290px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    background: #fcfcfc;
+}
+.video_content .cnt_p {padding: 10px 0;}
+.video a img{
+    width: 100%;
+}
+.hedaing{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
